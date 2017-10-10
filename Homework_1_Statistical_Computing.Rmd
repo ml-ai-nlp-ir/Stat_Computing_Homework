@@ -2,7 +2,9 @@
 title: "Statistical Computing HW1"
 author: "Ben Lane"
 date: "9/10/2017"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 *(informally) Due Tuesday, 12 September, 1:00 PM*
 
