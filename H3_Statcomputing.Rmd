@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Homework3"
 author: "Ben Lane"
 date: "10/9/2017"
 output:
@@ -128,10 +128,10 @@ Use \LaTeX to create the following expressions.
 1. Hint: `\Rightarrow` (4 points)
 
 $$
-\begin{align*}
+\begin{aligned}
 P(B) &= \sum\limits_{j}{P(B|A_j)P(A_j)}\\ 
 &\Rightarrow P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\sum_{j}{(B|A_j)P(A_j)}}
-\end{align*}
+\end{aligned}
 $$
 
 1. Hint: `\zeta` (3 points)
@@ -143,11 +143,6 @@ $$
 1. Hint: `\partial` (3 points)
 
 $$
-\mathbf{J} = \frac{df}{dx} = \Big[\frac{\partial\mathbf{f}}{{\partial}x_1} \dots \frac{\partial\mathbf{f}}{{\partial}x_n} \Big] = 
-
-\begin{bmatrix}
-    \frac{{\partial}f_1}{{\partial}x_1} & \dots  & \frac{{\partial}f_n}{{\partial}x_n} \\
-    \vdots & \ddots & \vdots \\
-    \frac{{\partial}f_m}{{\partial}x_1} & \dots & \frac{{\partial}f_m}{{\partial}x_n}
+\mathbf{J} = \frac{df}{dx} = \Big[\frac{\partial\mathbf{f}}{{\partial}x_1} \dots \frac{\partial\mathbf{f}}{{\partial}x_n} \Big] = \begin{bmatrix} \frac{{\partial}f_1}{{\partial}x_1} & \dots  & \frac{{\partial}f_n}{{\partial}x_n} \\ \vdots & \ddots & \vdots \\ \frac{{\partial}f_m}{{\partial}x_1} & \dots & \frac{{\partial}f_m}{{\partial}x_n}
 \end{bmatrix}
 $$
